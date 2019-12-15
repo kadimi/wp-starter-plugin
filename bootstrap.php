@@ -26,7 +26,7 @@ require 'class-myplugin.php';
  * Helper function.
  */
 function myplugin() {
-	return ( new class extends Kadimi\WPStarter {} )::get_instance();
+	return MyPlugin::get_instance();
 }
 
 /**
