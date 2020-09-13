@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Starter
- * Description: WP Starter Description.
+ * Description: WP Starter Description
  * Text Domain: wp-starter-plugin
  * Version: 1.0.0
  * Plugin URI: https://www.github.com/kadimi/wp-starter-plugin
