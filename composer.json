@@ -11,12 +11,13 @@
     ],
     "require": {
         "php": ">=5.6",
-        "kadimi/wpstarter": "^1.0"
+        "kadimi/wpstarter": "^1.0",
+        "wptrt/wpthemereview": "^0.2.1",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0"
     },
     "require-dev": {
         "kint-php/kint": "^3.3",
-        "php-parallel-lint/php-parallel-lint": "^1.2",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0"
+        "php-parallel-lint/php-parallel-lint": "^1.2"
     },
     "scripts": {
         "lint:wpcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs",
