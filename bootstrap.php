@@ -12,6 +12,10 @@
  * @package MyPlugin
  */
 
+// if ( ! defined( 'ABSPATH' ) ) {
+// 	exit;
+// }
+
 /**
  * Composer autoload.
  */

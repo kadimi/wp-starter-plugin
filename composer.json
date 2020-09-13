@@ -11,8 +11,7 @@
     ],
     "require": {
         "php": ">=5.6",
-        "kadimi/wpstarter": "^1.0",
-        "tgmpa/tgm-plugin-activation": "^2.6"
+        "kadimi/wpstarter": "^1.0"
     },
     "require-dev": {
         "kint-php/kint": "^3.3",
