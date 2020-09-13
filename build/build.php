@@ -2,10 +2,10 @@
 /**
  * Bootswatch build script.
  *
- * @package Start
+ * @package WPStarterPLugin
  */
 
-namespace Kadimi;
+namespace WPStarterPLugin;
 
 require 'build/class-builder.php';
 

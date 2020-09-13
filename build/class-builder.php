@@ -2,10 +2,10 @@
 /**
  * Builder class.
  *
- * @package Starter
+ * @package WPStarterPlugin
  */
 
-namespace Kadimi;
+namespace WPStarterPlugin;
 
 use \ZipArchive;
 
@@ -65,8 +65,8 @@ class Builder {
 		$this->timer          = microtime( true );
 		$this->plugin_slug    = $argv[1];
 		$this->plugin_version = $argv[2];
-		$this->task( [ $this, 'pot' ], 'Creating Languages File' );
-		$this->task( [ $this, 'package' ], 'Packaging' );
+		$this->task( array( $this, 'pot' ), 'Creating Languages File' );
+		$this->task( array( $this, 'package' ), 'Packaging' );
 	}
 
 	/**
@@ -117,10 +117,10 @@ class Builder {
 			$this->find( '.' ),
 			$this->find( '.git' ),
 			$this->find( 'build' ),
-			[
+			array(
 				'.git/',
 				'build/',
-			]
+			)
 		);
 
 		/**
@@ -152,7 +152,7 @@ class Builder {
 	 */
 	protected function find( $pattern ) {
 
-		$elements = [];
+		$elements = array();
 
 		/**
 		 * All paths

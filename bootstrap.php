@@ -1,20 +1,23 @@
 <?php
 /**
- * Plugin Name: MyPlugin
- * Description: MyPlugin Description.
- * Text Domain: myplugin
+ * Plugin Name: WP Starter
+ * Description: WP Starter Description.
+ * Text Domain: wp-starter-plugin
  * Version: 1.0.0
- * Plugin URI: https://www.github.com/kadimi/starter
- * GitHub Plugin URI: https://github.com/kadimi/starter
+ * Plugin URI: https://www.github.com/kadimi/wp-starter-plugin
+ * GitHub Plugin URI: https://github.com/kadimi/wp-starter-plugin
  * Author: Nabil Kadimi
  * Author URI: https://kadimi.com
  *
- * @package MyPlugin
+ * @package WPStarterPlugin
  */
 
-// if ( ! defined( 'ABSPATH' ) ) {
-// 	exit;
-// }
+/**
+ * Fire plugin.
+ */
+if ( defined( 'ABSPATH' ) ) {
+	wpstarterplugin();
+}
 
 /**
  * Composer autoload.
@@ -24,16 +27,12 @@ require 'vendor/autoload.php';
 /**
  * The plugin class.
  */
-require 'class-myplugin.php';
+require 'class-wpstarterplugin.php';
 
 /**
  * Helper function.
  */
-function myplugin() {
-	return MyPlugin::get_instance();
+function wpstarterplugin() {
+	return WPStarterPlugin::get_instance();
 }
 
-/**
- * Fire plugin.
- */
-myplugin();
