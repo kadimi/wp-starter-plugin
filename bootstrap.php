@@ -13,13 +13,6 @@
  */
 
 /**
- * Fire plugin.
- */
-if ( defined( 'ABSPATH' ) ) {
-	wpstarterplugin();
-}
-
-/**
  * Composer autoload.
  */
 require 'vendor/autoload.php';
@@ -28,6 +21,13 @@ require 'vendor/autoload.php';
  * The plugin class.
  */
 require 'class-wpstarterplugin.php';
+
+/**
+ * Fire plugin.
+ */
+if ( defined( 'ABSPATH' ) ) {
+	wpstarterplugin();
+}
 
 /**
  * Helper function.
