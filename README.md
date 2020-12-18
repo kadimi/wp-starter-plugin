@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kadimi/starter.svg?branch=master)](https://travis-ci.org/kadimi/starter)
+[![Build Status](https://travis-ci.org/kadimi/wp-starter-plugin.svg?branch=master)](https://travis-ci.org/kadimi/wp-starter-plugin)
 
 # WordPress starter plugin
 
