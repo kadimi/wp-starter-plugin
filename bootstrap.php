@@ -15,7 +15,7 @@
 /**
  * Composer autoload.
  */
-require 'vendor/autoload.php';
+require __DIR__ . 'vendor/autoload.php';
 
 /**
  * The plugin class.
@@ -35,4 +35,3 @@ if ( defined( 'ABSPATH' ) ) {
 function wpstarterplugin() {
 	return WPStarterPlugin::get_instance();
 }
-
