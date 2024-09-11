@@ -18,8 +18,8 @@
         "wp-coding-standards/wpcs": "^3.1"
     },
     "scripts": {
-        "phpcs": "@php ./vendor/bin/phpcs --ignore=build,vendor --standard=WordPress",
-        "phpcbf": "@php ./vendor/bin/phpcbf --ignore=build,vendor --standard=WordPress"
+        "phpcs": "@php ./vendor/bin/phpcs --ignore=build,vendor,node_modules --standard=WordPress",
+        "phpcbf": "@php ./vendor/bin/phpcbf --ignore=build,vendor,node_modules --standard=WordPress"
     },
     "config": {
         "allow-plugins": {
