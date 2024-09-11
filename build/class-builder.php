@@ -7,7 +7,7 @@
 
 namespace WPStarterPlugin;
 
-use \ZipArchive;
+use ZipArchive;
 
 /**
  * BootswatchBuild
